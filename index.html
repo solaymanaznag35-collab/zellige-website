@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>أعمال البناء والترميم والزليج | Marrakech</title>
+    <meta name="description" content="خدمات الزليج المغربي التقليدي والسيراميك والبناء والترميم والديكور في مراكش. تواصل معنا للحصول على عرض سعر.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+
+    <!-- شريط التنقل -->
+    <header class="header">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">✦</span>
+                <span>
+                    <strong>أعمال البناء والترميم</strong>
+                    <small>Zellige & Décoration</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
+                ☰
+            </button>
+
+            <nav class="nav" id="navMenu">
+                <a href="#home" data-ar="الرئيسية" data-fr="Accueil">الرئيسية</a>
+                <a href="#about" data-ar="من نحن" data-fr="À propos">من نحن</a>
+                <a href="#services" data-ar="خدماتنا" data-fr="Services">خدماتنا</a>
+                <a href="#gallery" data-ar="معرض الأعمال" data-fr="Réalisations">معرض الأعمال</a>
+                <a href="#contact" data-ar="اتصل بنا" data-fr="Contact">اتصل بنا</a>
+            </nav>
+
+            <button class="language-btn" id="languageToggle">FR</button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- الواجهة الرئيسية -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+                <span class="eyebrow"
+                      data-ar="الأصالة المغربية • الجودة • الإتقان"
+                      data-fr="Authenticité marocaine • Qualité • Savoir-faire">
+                    الأصالة المغربية • الجودة • الإتقان
+                </span>
+
+                <h1 data-ar="نحوّل أفكاركم إلى فضاءات استثنائية"
+                    data-fr="Nous transformons vos idées en espaces exceptionnels">
+                    نحوّل أفكاركم إلى فضاءات استثنائية
+                </h1>
+
+                <p data-ar="متخصصون في الزليج المغربي التقليدي، والسيراميك، والبناء والترميم والديكور، مع عناية بالتفاصيل وجودة في التنفيذ."
+                   data-fr="Spécialisés dans le zellige marocain traditionnel, la céramique, la construction, la rénovation et la décoration, avec un grand souci du détail.">
+                    متخصصون في الزليج المغربي التقليدي، والسيراميك، والبناء والترميم والديكور، مع عناية بالتفاصيل وجودة في التنفيذ.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-gold"
+                       data-ar="اطلب عرض سعر"
+                       data-fr="Demander un devis">اطلب عرض سعر</a>
+
+                    <a href="#gallery" class="btn btn-outline"
+                       data-ar="اكتشف أعمالنا"
+                       data-fr="Découvrir nos réalisations">اكتشف أعمالنا</a>
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>MARRAKECH — MAROC</span>
+                <span>CRAFT • DESIGN • QUALITY</span>
+            </div>
+        </section>
+
+        <!-- نبذة عنا -->
+        <section class="about section" id="about">
+            <div class="container about-grid">
+
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85"
+                         alt="ديكور داخلي مغربي فاخر">
+                    <div class="image-label">L'ART DU DÉTAIL</div>
+                </div>
+
+                <div class="about-text">
+                    <span class="section-label"
+                          data-ar="من نحن"
+                          data-fr="À PROPOS">
+                        من نحن
+                    </span>
+
+                    <h2 data-ar="حرفية مغربية بروح عصرية"
+                        data-fr="Un savoir-faire marocain au style contemporain">
+                        حرفية مغربية بروح عصرية
+                    </h2>
+
+                    <p data-ar="نقدم خدمات في مجال البناء والترميم والزليج المغربي والسيراميك والديكور، ونسعى إلى تقديم حلول تجمع بين جمالية التصميم وجودة الإنجاز."
+                       data-fr="Nous proposons des services de construction, de rénovation, de zellige marocain, de céramique et de décoration. Notre objectif est d'allier esthétique et qualité d'exécution.">
+                        نقدم خدمات في مجال البناء والترميم والزليج المغربي والسيراميك والديكور، ونسعى إلى تقديم حلول تجمع بين جمالية التصميم وجودة الإنجاز.
+                    </p>
+
+                    <p data-ar="نعمل على تلبية احتياجات الزبناء في المنازل والفلل والمقاهي والفضاءات التجارية، مع الاهتمام بالتفاصيل واختيار المواد المناسبة لكل مشروع."
+                       data-fr="Nous accompagnons les particuliers et les professionnels dans leurs projets de maisons, villas, cafés et espaces commerciaux, en accordant une attention particulière aux détails.">
+                        نعمل على تلبية احتياجات الزبناء في المنازل والفلل والمقاهي والفضاءات التجارية، مع الاهتمام بالتفاصيل واختيار المواد المناسبة لكل مشروع.
+                    </p>
+
+                    <a href="#contact" class="text-link"
+                       data-ar="تواصل معنا ←"
+                       data-fr="Contactez-nous ←">تواصل معنا ←</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- الخدمات -->
+        <section class="services section" id="services">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label"
+                          data-ar="ماذا نقدم؟"
+                          data-fr="NOS SERVICES">ماذا نقدم؟</span>
+
+                    <h2 data-ar="خدماتنا"
+                        data-fr="Nos services">خدماتنا</h2>
+
+                    <p data-ar="حلول متنوعة لتحويل المساحات إلى أماكن تجمع بين الجمال والوظيفة."
+                       data-fr="Des solutions variées pour créer des espaces qui allient beauté et fonctionnalité.">
+                        حلول متنوعة لتحويل المساحات إلى أماكن تجمع بين الجمال والوظيفة.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <div class="service-number">01</div>
+                        <div class="service-icon">✧</div>
+                        <h3 data-ar="الزليج المغربي"
+                            data-fr="Zellige marocain">الزليج المغربي</h3>
+                        <p data-ar="تركيب الزليج المغربي التقليدي وإبراز جمالية النقوش والألوان في مختلف الفضاءات."
+                           data-fr="Pose de zellige marocain traditionnel et mise en valeur des motifs et des couleurs dans vos espaces.">
+                            تركيب الزليج المغربي التقليدي وإبراز جمالية النقوش والألوان في مختلف الفضاءات.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-number">02</div>
+                        <div class="service-icon">◇</div>
+                        <h3 data-ar="السيراميك والبلاط"
+                            data-fr="Céramique et carrelage">السيراميك والبلاط</h3>
+                        <p data-ar="تركيب السيراميك والبلاط للأرضيات والجدران والمطابخ والحمامات."
+                           data-fr="Pose de céramique et de carrelage pour les sols, les murs, les cuisines et les salles de bain.">
+                            تركيب السيراميك والبلاط للأرضيات والجدران والمطابخ والحمامات.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-number">03</div>
+                        <div class="service-icon">⌂</div>
+                        <h3 data-ar="البناء والتشييد"
+                            data-fr="Construction">البناء والتشييد</h3>
+                        <p data-ar="خدمات البناء والأشغال المرتبطة بتجهيز وتحسين الفضاءات السكنية والتجارية."
+                           data-fr="Travaux de construction et aménagement d'espaces résidentiels et commerciaux.">
+                            خدمات البناء والأشغال المرتبطة بتجهيز وتحسين الفضاءات السكنية والتجارية.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-number">04</div>
+                        <div class="service-icon">✦</div>
+                        <h3 data-ar="الترميم والإصلاح"
+                            data-fr="Rénovation et réparation">الترميم والإصلاح</h3>
+                        <p data-ar="ترميم وتجديد المنازل والفضاءات القديمة وإعادة إظهار جمالها."
+                           data-fr="Rénovation et remise en état des maisons et des espaces anciens.">
+                            ترميم وتجديد المنازل والفضاءات القديمة وإعادة إظهار جمالها.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-number">05</div>
+                        <div class="service-icon">◈</div>
+                        <h3 data-ar="الديكور الداخلي والخارجي"
+                            data-fr="Décoration intérieure et extérieure">الديكور الداخلي والخارجي</h3>
+                        <p data-ar="تنسيق المساحات واختيار اللمسات الجمالية المناسبة للمنازل والفلل والمقاهي."
+                           data-fr="Aménagement et décoration de maisons, villas et cafés avec des finitions adaptées.">
+                            تنسيق المساحات واختيار اللمسات الجمالية المناسبة للمنازل والفلل والمقاهي.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-number">06</div>
+                        <div class="service-icon">⌘</div>
+                        <h3 data-ar="تهيئة الفضاءات"
+                            data-fr="Aménagement des espaces">تهيئة الفضاءات</h3>
+                        <p data-ar="تهيئة وتجهيز الفضاءات السكنية والتجارية وفق حاجيات كل زبون."
+                           data-fr="Aménagement des espaces résidentiels et commerciaux selon vos besoins.">
+                            تهيئة وتجهيز الفضاءات السكنية والتجارية وفق حاجيات كل زبون.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- معرض الأعمال -->
+        <section class="gallery section" id="gallery">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label"
+                          data-ar="الإبداع في التفاصيل"
+                          data-fr="LE GOÛT DU DÉTAIL">الإبداع في التفاصيل</span>
+
+                    <h2 data-ar="معرض الأعمال"
+                        data-fr="Nos réalisations">معرض الأعمال</h2>
+
+                    <p data-ar="نماذج وصور إلهامية للزليج والديكور والعمارة."
+                       data-fr="Une sélection d'images d'inspiration autour du zellige, de la décoration et de l'architecture.">
+                        نماذج وصور إلهامية للزليج والديكور والعمارة.
+                    </p>
+                </div>
+
+                <div class="gallery-grid">
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=85" alt="ديكور منزل">
+                        <div class="gallery-caption" data-ar="الديكور الداخلي" data-fr="Décoration intérieure">الديكور الداخلي</div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85" alt="تصميم داخلي">
+                        <div class="gallery-caption" data-ar="تهيئة الفضاءات" data-fr="Aménagement">تهيئة الفضاءات</div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85" alt="تصميم فاخر">
+                        <div class="gallery-caption" data-ar="التصميم العصري" data-fr="Design contemporain">التصميم العصري</div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=900&q=85" alt="صالون أنيق">
+                        <div class="gallery-caption" data-ar="اللمسات الجمالية" data-fr="Finitions décoratives">اللمسات الجمالية</div>
+                    </div>
+
+                </div>
+
+                <p class="gallery-note"
+                   data-ar="ملاحظة: هذه صور توضيحية مؤقتة. يمكنك استبدالها بصور مشاريعك الحقيقية."
+                   data-fr="Remarque : ces images sont illustratives. Vous pouvez les remplacer par les photos de vos propres réalisations.">
+                    ملاحظة: هذه صور توضيحية مؤقتة. يمكنك استبدالها بصور مشاريعك الحقيقية.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- لماذا تختارنا -->
+        <section class="why-us section">
+            <div class="container why-grid">
+
+                <div>
+                    <span class="section-label"
+                          data-ar="اختياركم الصحيح"
+                          data-fr="VOTRE BON CHOIX">اختياركم الصحيح</span>
+
+                    <h2 data-ar="الجودة تبدأ من الاهتمام بالتفاصيل"
+                        data-fr="La qualité commence par le souci du détail">
+                        الجودة تبدأ من الاهتمام بالتفاصيل
+                    </h2>
+
+                    <p data-ar="نؤمن بأن نجاح أي مشروع يبدأ بفهم احتياجات الزبون، واختيار الحل المناسب، والحرص على جودة التنفيذ."
+                       data-fr="Nous croyons que la réussite d'un projet commence par l'écoute du client, le choix de solutions adaptées et le soin apporté à l'exécution.">
+                        نؤمن بأن نجاح أي مشروع يبدأ بفهم احتياجات الزبون، واختيار الحل المناسب، والحرص على جودة التنفيذ.
+                    </p>
+                </div>
+
+                <div class="advantages">
+                    <div class="advantage">
+                        <span>01</span>
+                        <div>
+                            <h3 data-ar="العناية بالتفاصيل" data-fr="Le souci du détail">العناية بالتفاصيل</h3>
+                            <p data-ar="الاهتمام بجمالية وجودة كل مرحلة من العمل." data-fr="Une attention portée à chaque étape du travail.">الاهتمام بجمالية وجودة كل مرحلة من العمل.</p>
+                        </div>
+                    </div>
+
+                    <div class="advantage">
+                        <span>02</span>
+                        <div>
+                            <h3 data-ar="احترام احتياجات الزبون" data-fr="Écoute du client">احترام احتياجات الزبون</h3>
+                            <p data-ar="حلول تناسب طبيعة المشروع والميزانية." data-fr="Des solutions adaptées au projet et au budget.">حلول تناسب طبيعة المشروع والميزانية.</p>
+                        </div>
+                    </div>
+
+                    <div class="advantage">
+                        <span>03</span>
+                        <div>
+                            <h3 data-ar="الأصالة والإبداع" data-fr="Authenticité et créativité">الأصالة والإبداع</h3>
+                            <p data-ar="الجمع بين الطابع المغربي واللمسة العصرية." data-fr="L'alliance du style marocain et du design moderne.">الجمع بين الطابع المغربي واللمسة العصرية.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- دعوة للتواصل -->
+        <section class="cta">
+            <div class="container cta-content">
+                <span data-ar="هل لديك مشروع؟" data-fr="Vous avez un projet ?">هل لديك مشروع؟</span>
+
+                <h2 data-ar="دعنا نساعدك على تحقيق فكرتك"
+                    data-fr="Donnons vie à votre projet">
+                    دعنا نساعدك على تحقيق فكرتك
+                </h2>
+
+                <a href="https://wa.me/212626802067" target="_blank" rel="noopener" class="btn btn-gold"
+                   data-ar="تواصل معنا عبر واتساب"
+                   data-fr="Contactez-nous sur WhatsApp">
+                    تواصل معنا عبر واتساب
+                </a>
+            </div>
+        </section>
+
+        <!-- التواصل -->
+        <section class="contact section" id="contact">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label"
+                          data-ar="نحن في انتظار تواصلكم"
+                          data-fr="CONTACTEZ-NOUS">نحن في انتظار تواصلكم</span>
+
+                    <h2 data-ar="اتصل بنا"
+                        data-fr="Contactez-nous">اتصل بنا</h2>
+
+                    <p data-ar="للاستفسار أو طلب عرض سعر، يسعدنا التواصل معكم."
+                       data-fr="Pour toute information ou demande de devis, nous serons ravis de vous répondre.">
+                        للاستفسار أو طلب عرض سعر، يسعدنا التواصل معكم.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info">
+
+                        <div class="contact-item">
+                            <span>☎</span>
+                            <div>
+                                <h3 data-ar="الهاتف" data-fr="Téléphone">الهاتف</h3>
+                                <a href="tel:+212642349708">0642349708</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>◉</span>
+                            <div>
+                                <h3>WhatsApp</h3>
+                                <a href="https://wa.me/212626802067" target="_blank" rel="noopener">0626802067</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>✉</span>
+                            <div>
+                                <h3 data-ar="البريد الإلكتروني" data-fr="E-mail">البريد الإلكتروني</h3>
+                                <a href="mailto:solaymanaznag35@gmail.com">solaymanaznag35@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>⌖</span>
+                            <div>
+                                <h3 data-ar="الموقع" data-fr="Localisation">الموقع</h3>
+                                <p>Marrakech, Morocco</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/61584128071684/posts/122143733229137602/?substory_index=1629734822031577&app=fbl" target="_blank" rel="noopener">Facebook</a>
+
+                            <a href="https://www.instagram.com/solymanaznag?mdxt=MTkxbnlkeWdsM214ZQ==" target="_blank" rel="noopener">Instagram</a>
+                        </div>
+
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+
+                        <h3 data-ar="أرسل لنا رسالة" data-fr="Envoyez-nous un message">أرسل لنا رسالة</h3>
+
+                        <label for="name" data-ar="الاسم الكامل" data-fr="Nom complet">الاسم الكامل</label>
+                        <input type="text" id="name" required placeholder="">
+
+                        <label for="phone" data-ar="رقم الهاتف" data-fr="Téléphone">رقم الهاتف</label>
+                        <input type="tel" id="phone" required placeholder="">
+
+                        <label for="service" data-ar="الخدمة المطلوبة" data-fr="Service souhaité">الخدمة المطلوبة</label>
+                        <select id="service" required>
+                            <option value="الزليج المغربي">الزليج المغربي</option>
+                            <option value="السيراميك والبلاط">السيراميك والبلاط</option>
+                            <option value="البناء والتشييد">البناء والتشييد</option>
+                            <option value="الترميم والإصلاح">الترميم والإصلاح</option>
+                            <option value="الديكور">الديكور</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+
+                        <label for="message" data-ar="تفاصيل المشروع" data-fr="Détails du projet">تفاصيل المشروع</label>
+                        <textarea id="message" rows="5" required></textarea>
+
+                        <button type="submit" class="btn btn-gold form-button"
+                                data-ar="إرسال عبر واتساب"
+                                data-fr="Envoyer sur WhatsApp">
+                            إرسال عبر واتساب
+                        </button>
+
+                        <small data-ar="سيتم فتح واتساب لإرسال رسالتك."
+                               data-fr="WhatsApp s'ouvrira pour envoyer votre message.">
+                            سيتم فتح واتساب لإرسال رسالتك.
+                        </small>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div>
+                <h3>أعمال البناء والترميم والزليج</h3>
+                <p data-ar="الأصالة المغربية واللمسة العصرية."
+                   data-fr="L'authenticité marocaine et une touche moderne.">
+                    الأصالة المغربية واللمسة العصرية.
+                </p>
+            </div>
+
+            <p>© <span id="year"></span> — Tous droits réservés.</p>
+
+            <a href="#home" class="back-top">↑</a>
+
+        </div>
+    </footer>
+
+    <!-- زر واتساب العائم -->
+    <a class="whatsapp-float" href="https://wa.me/212626802067"
+       target="_blank" rel="noopener" aria-label="WhatsApp">
+        W
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
